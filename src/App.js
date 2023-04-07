@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import SearchBar from "./components/SearchBar";
 import Navbar from "./components/navbar";
-import { searchPokemon } from "./api";
+import Pokedex  from './components/pokedex'
 
 
 function App() {
@@ -10,9 +10,7 @@ function App() {
       <div>
       <Navbar />
       <SearchBar />
-      <div className="App">
-
-      </div>
+      <Pokedex />
     </div>
   );
 }
